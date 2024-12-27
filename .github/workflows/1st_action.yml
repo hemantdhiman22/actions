@@ -8,4 +8,12 @@ jobs:
         run: echo "Hello World!!!"
       - name: print goodbye
         run: echo "Good Bye!!!"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting from 2nd mach
+        run: echo "hello from 2nd!!!"
+      - name: print goodbye from 2nd mach 
+        run: echo "good bye from 2nd!!!"
+        
 
